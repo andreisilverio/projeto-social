@@ -1,0 +1,42 @@
+@charset "utf-8"
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    height: 98vh;
+    width: 99vw;
+    background: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+main {
+    position: relative;
+    height: 98vh;
+   
+}
+
+#smartphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+
+    height: 618px;
+    width: 300px;
+    background: url('../imagens/celular.png')
+    no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top:57px;
+    left: 10px;
+    height: 497px;
+    width: 280px;
+}
