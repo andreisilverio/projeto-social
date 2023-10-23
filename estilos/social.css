@@ -12,6 +12,7 @@
 
 img {
     width: 100vw;
+   
 }
 
 a {
@@ -21,6 +22,7 @@ a {
     color: white;
     background-color: darkred;
     padding: 20px;
+    margin-top: -10px;
     text-align: center;
     font-weight: bolder;
 }
@@ -28,4 +30,5 @@ a {
 a:hover {
     background-color: red;
     text-decoration: underline;
+    transition: 1s;
 }
